@@ -6,8 +6,7 @@
     </head>
 	<body>
 	    <div>
-		<p><b>Obrigado por se cadastrar!!</b></p>
-		<p>Voltar para a <a href="index.html">pagina incial</a></p>
+		<p><b>Obrigado por se cadastrar!!</b><br> Voltar para a <a href="index.html">pagina incial</a></p>
 	    </div>
 	</body>
 </html>
