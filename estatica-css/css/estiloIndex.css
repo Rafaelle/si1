@@ -4,6 +4,10 @@ body {
 	font-family: "Times New Roman";
 	font-size: 20px;
 }
+div{
+	height: 300px;
+	width: 900px;
+}
 h1{
 	font-family: verdana;
 
@@ -14,6 +18,7 @@ a:link {
 a:hover { 
 	color:#FF4500; text-decoration: none
 }
+
 
 
 
