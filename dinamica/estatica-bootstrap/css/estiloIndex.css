@@ -1,0 +1,16 @@
+body {
+	background-color: #9FB6CD;
+	margin-left: 70px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+a:link { 
+	color:#0000FF; text-decoration: underline 
+}
+a:hover { 
+	color:#FF4500; text-decoration: none
+}
+
+
+
+
