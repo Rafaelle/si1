@@ -9,33 +9,37 @@
 
     </head>
 	<body>
-	    <div class="container">
-			<form class="form-horizontal" action="matriculaRealizada.html" >
-				<fieldset>
-				    <legend>Formulário</legend>	  
-				    
-					<div class="control-group">
-						<label class="control-label">Nome</label>
-						<div class="controls">
-							<input type="text" placeholder="Nome" autofocus />
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label">Número da matrícula</label>
-						<div class="controls">
-							<input type="text" placeholder="Matrícula" />
-						</div>
-					</div>
-					<div class="control-group">
-						<div class="controls">
-				    		<button type="submit" class="btn btn-primary" value="cadastrar">Cadastrar</button>
-						    <button type="reset" class="btn" value="Limpar">Limpar dados</button>
-						</div>
-					</div>
-				</fieldset>
 
-			</form>
-	    </div>
+		<div class="container">
+			<form class="form-horizontal" action="matriculaRealizada.html" >
+			<fieldset>
+
+			<legend>Formulário de inscrição</legend>
+
+			<div class="control-group">
+				<label class="control-label">Nome completo</label>
+				<div class="controls">
+			    	<input name="nome" placeholder="Nome completo" type="text" autofocus >
+			  	</div>
+			</div>
+
+			<div class="control-group">
+			  	<label class="control-label" for="textinput">Número da matrícula</label>
+			  	<div class="controls">
+			    	<input name="matricula" placeholder="Número da matrícula" type="text">
+			  	</div>
+			</div>
+
+			<div class="control-group">
+			  <div class="controls">
+				    <button type="submit" class="btn btn-primary" value="cadastrar">Cadastrar</button>
+					<button type="reset" class="btn" value="Limpar">Limpar dados</button>
+			  </div>
+			</div>
+
+			</fieldset>
+		</div>
+
 	</body>
 </html>
 

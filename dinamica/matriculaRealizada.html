@@ -11,45 +11,54 @@
         
     </head>
     <body>
-        <header>
-            <div class="container">
-                <h2 >Adicionar novos temas a aprender!</h2>
-            </div>
-        </header>
-    
-        <div class="container">
-            
+        <div class="container"> 
+
             <legend> Adicionar novo tema </legend>
+
             <div class="control-group">
-                <label for="tema"> Novo tema </label>   
-                <input class="tema" type="text" placeholder="Tema" autofocus>
-                <button id = "adicionar" class="btn btn-primary">Adicionar</button>
-                <button id = "limpar" class="btn"> Limpar </button>
+                
+                <div class="controls"> 
+                    <label class="control-label"> Novo tema </label>
+                    <input id ="tema" type="text" placeholder="Tema" autofocus></input>
+                    <button id ="adicionar" class="btn btn-primary" >Adicionar</button>
+                    <button id ="limpar" class="btn"> Limpar </button>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6"> 
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lista de temas a aprender</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group" id="lista_aprender">
+                                <li class="list-group-item">item teste</li>
+                                 <li class="list-group-item">outro item teste</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lista de temas aprendidos</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group" id="lista_aprendido">
+                                <li class="list-group-item">item teste</li>
+                                 <li class="list-group-item">outro item teste</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
-        <div class="container">
-            <div class="panel panel-primary">
-                <div class="panel-heading"><h4 class="panel-title">Lista de temas a aprender</h4>
-                </div>
-                <div class="panel-body" id="lista_aprender">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="panel panel-primary">
-                <div class="panel-heading"><h4 class="panel-title">Lista de temas aprendidos</h4>
-                </div>
-                <div class="panel-body" id="lista_aprendido">
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <div class="container">
-                <p>Voltar para a <a href="index.html">página inicial</a>.</p>
-            </div>
-        </footer>
     </body>
-</html>
+
+  
