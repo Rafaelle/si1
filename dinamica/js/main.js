@@ -16,14 +16,17 @@ $(function (){
 	$("#limpar").click( function () {
 		$("#tema").val("");		
 	});
-
 		
 	$("#lista_aprender").on("click", "#aprendido", function () {
 		var li = $(this).parent();
 		li.remove();
 		$("#lista_aprendido").append(li);		
 		});
-		
+
+	
+	$("#limpar").click( function () {
+		$("#tema").val("");		
+	});
 
 	$("#lista_aprender").on("click", "#remover", function () {
 		$(this).parent().remove();		
