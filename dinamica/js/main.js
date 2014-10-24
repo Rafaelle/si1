@@ -1,9 +1,5 @@
 $(function (){
-	$("#limpar").click( function () {
-		$("#tema").val("");		
-	});
-
-
+	
 	$("#adicionar").click( function() {
 		var tema = $("#tema").val();
 
@@ -18,7 +14,10 @@ $(function (){
 		}
 		
 	});
-
+	
+	$("#limpar").click( function () {
+		$("#tema").val("");		
+	});
 
 
 
