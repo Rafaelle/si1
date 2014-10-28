@@ -4,15 +4,20 @@ body {
 	margin-left: 70px;
 	font-size: 20px;
 }
-span{
-	font-weight: bold;
-	color: #B22222;
-}
+
 a:link { 
 	color:#0000FF; text-decoration: underline 
 }
 a:hover { 
 	color:#FF4500; text-decoration: none
+}
+
+.aprendido, .remover {
+	float: right;
+}
+
+#listas{
+	margin-top: 20px; 
 }
 
 

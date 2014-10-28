@@ -27,24 +27,21 @@
                 </div>
                 <div class="panel-body">
                     <form id="addConteudo" class="form-inline" >
-                        <fieldset>            
-                            <legend>Adicione um novo conteúdo para aprender</legend>
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input class="form-control" id="conteudo" placeholder="Novo conteúdo" type="text" autofocus required>
-                                </div>
+                        <legend>Adicione um novo conteúdo para aprender</legend>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="conteudo" placeholder="Novo conteúdo"  autofocus required>
                             </div>
-                            <button type="submit" class="btn btn-primary" value="adicionar">Adicionar</button>
-                            <button type="reset" class="btn" value="limpar">Limpar dados</button>
-
-                        </fieldset>
+                        </div>
+                        <button type="submit" class="btn btn-primary" value="adicionar">Adicionar</button>
+                        <button type="reset" class="btn" value="limpar">Limpar dados</button>
                     </form>
 
-                    <div class="row">
+                    <div class="row" id="listas">
                         <div class="col-md-6"> 
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Lista de conteudos a aprender</h3>
+                                    <h3 class="panel-title">Lista de conteúdos a aprender</h3>
                                 </div>
                                 <div class="panel-body">
                                     <ul class="list-group" id="lista_aprender"></ul>
@@ -55,7 +52,7 @@
                         <div class="col-md-6">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Lista de conteudo aprendidos</h3>
+                                    <h3 class="panel-title">Lista de conteúdos aprendidos</h3>
                                 </div>
                                 <div class="panel-body">
                                     <ul class="list-group" id="lista_aprendido"></ul>

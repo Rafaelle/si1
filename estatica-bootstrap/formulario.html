@@ -9,33 +9,40 @@
 
     </head>
 	<body>
-	    <div class="container">
-			<form class="form-horizontal" action="matriculaRealizada.html" >
-				<fieldset>
-				    <legend>Formulário</legend>	  
-				    
-					<div class="control-group">
-						<label class="control-label">Nome</label>
-						<div class="controls">
-							<input type="text" placeholder="Nome" autofocus />
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label">Número da matrícula</label>
-						<div class="controls">
-							<input type="text" placeholder="Matrícula" />
-						</div>
-					</div>
-					<div class="control-group">
-						<div class="controls">
-				    		<button type="submit" class="btn btn-primary" value="cadastrar">Cadastrar</button>
-						    <button type="reset" class="btn" value="Limpar">Limpar dados</button>
-						</div>
-					</div>
-				</fieldset>
 
-			</form>
-	    </div>
+		<div class="container" >
+			<div class="panel panel-primary">
+  				<div class="panel-heading">
+  					<h3>Formulário de inscrição</h3>
+  				</div>
+  				<div class="panel-body">
+
+	  				<form class="form-horizontal" action="matriculaRealizada.html">
+						<legend>Inscreva-se!</legend>
+
+						<div class="form-group">
+							<label for="inputNome" class="col-sm-2 control-label">Nome Completo</label>
+						    <div class="col-sm-10">
+						      <input type="text" class="form-control" id="inputNome" placeholder="Nome completo" autofocus required>
+						    </div>
+						</div>
+						<div class="form-group">
+						   	<label for="inputMatricula" class="col-sm-2 control-label">Nùmero da matrícula</label>
+						   	<div class="col-sm-10">
+						   	  <input type="text" class="form-control" id="inputMatricula" placeholder="Número da matrícula" required>
+						   	</div>
+						</div>
+						<div class="form-group">
+						  	<div class="col-sm-offset-2 col-sm-10">
+						  		<button type="submit" class="btn btn-primary" value="cadastrar">Cadastrar</button>
+								<button type="reset" class="btn" value="Limpar">Limpar dados</button>
+						   	</div>
+						</div>
+					</form>
+
+  				</div>
+			</div>			
+		</div>
+
 	</body>
 </html>
-
