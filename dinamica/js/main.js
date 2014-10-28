@@ -11,7 +11,6 @@ $(function (){
 		$(".remover").addClass("btn btn-danger");
 
 		limparInput();
-
 	});
 
 	function limparInput(){
